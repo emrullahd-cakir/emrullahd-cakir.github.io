@@ -1,41 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Emrullah D. Çakır</title>
-  <style>
-    body {
-      font-family: serif;
-      max-width: 650px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-      color: #000;
-      background: #fff;
-    }
-    h1 {
-      font-size: 2em;
-      margin-bottom: 0.5em;
-    }
-    nav a {
-      margin-right: 1rem;
-      text-decoration: none;
-      color: #00f;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <meta name="description" content="Personal academic website for Emrullah D. Çakır.">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-  <h1>Emrullah D. Çakır</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="projects.html">Projects</a>
-    <a href="resume.html">Resume</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+  <header class="site-header">
+    <a class="site-title" href="index.html">Emrullah D. Çakır</a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a aria-current="page" href="index.html">About</a>
+      <a href="research.html">Research</a>
+      <a href="notes.html">Notes</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </header>
 
-  <p>Welcome to my personal website. Use the links above to navigate.</p>
+  <main class="page-shell">
+    <aside class="profile-card" aria-label="Profile">
+      <img class="profile-photo" src="assets/img/profile-placeholder.svg" alt="Profile placeholder for Emrullah D. Çakır">
+      <h1>Emrullah D. Çakır</h1>
+      <p class="profile-role">Astrophysics student</p>
+      <ul class="profile-links">
+        <li>United States</li>
+        <li><a href="mailto:your.email@example.com">Email</a></li>
+        <li><a href="https://github.com/emrullahd-cakir">GitHub</a></li>
+        <li><a href="https://scholar.google.com/">Google Scholar</a></li>
+      </ul>
+    </aside>
+
+    <section class="content">
+      <h2>About</h2>
+      <p>
+        I am an astrophysics student interested in high-energy astronomy, data analysis,
+        and computational tools for extracting physical meaning from observations.
+        This site collects my research interests, notes, teaching material, and selected
+        academic work.
+      </p>
+
+      <h3>Current Interests</h3>
+      <ul>
+        <li>X-ray astronomy and source characterization</li>
+        <li>Scientific computing for reproducible analysis</li>
+        <li>Data calibration, modeling, and interpretation</li>
+      </ul>
+
+      <h3>Recent Updates</h3>
+      <ul class="updates">
+        <li><time datetime="2026-07">July 2026</time> This website is being built as a home for research notes, projects, and academic materials.</li>
+        <li><time datetime="2026-07">July 2026</time> Research and notes pages are ready for drafts, links, and project descriptions.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Emrullah D. Çakır. Built with GitHub Pages.</p>
+  </footer>
 </body>
 </html>
