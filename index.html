@@ -3,181 +3,55 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Emrullah D. Çakır</title>
-  <meta name="description" content="Personal academic website for Emrullah D. Çakır, astrophysics student and scientific computing researcher.">
-  <meta property="og:title" content="Emrullah D. Çakır">
-  <meta property="og:description" content="Astrophysics, high-energy astronomy, and scientific computing.">
-  <meta property="og:type" content="website">
-  <link rel="preload" href="assets/img/hero-astrophysics.webp" as="image">
-  <link rel="stylesheet" href="assets/css/site.css">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Site temporarily offline</title>
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      background: #080d12;
+      color: #f4f7f8;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main {
+      width: min(92vw, 560px);
+      padding: 2rem;
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 10px;
+      background: rgba(255,255,255,.045);
+      box-shadow: 0 24px 80px rgba(0,0,0,.3);
+    }
+    p:first-child {
+      margin: 0 0 .75rem;
+      color: #c69143;
+      font-size: .78rem;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0 0 .75rem;
+      font-size: clamp(2rem, 8vw, 4rem);
+      line-height: .95;
+      letter-spacing: -.05em;
+    }
+    p:last-child {
+      margin: 0;
+      color: rgba(244,247,248,.72);
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+  </style>
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="Emrullah D. Çakır home">
-      <span class="brand-mark">EÇ</span>
-      <span>Emrullah D. Çakır</span>
-    </a>
-    <nav class="site-nav" aria-label="Primary navigation">
-      <a href="#research">Research</a>
-      <a href="#work">Work</a>
-      <a href="#notes">Notes</a>
-      <a href="#cv">CV</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <main id="top">
-    <section class="hero" aria-labelledby="hero-title">
-      <img class="hero-image" src="assets/img/hero-astrophysics.webp" alt="Night observatory desk with astrophysics data on screens">
-      <div class="hero-scrim" aria-hidden="true"></div>
-      <div class="hero-content">
-        <p class="eyebrow">Astrophysics · High-energy astronomy · Scientific computing</p>
-        <h1 id="hero-title">Emrullah D. Çakır</h1>
-        <p class="hero-copy">
-          I study how observations become physical claims, with attention to detector response,
-          source characterization, and reproducible analysis workflows.
-        </p>
-        <div class="hero-actions" aria-label="Primary links">
-          <a class="button button-primary" href="#research">Research focus</a>
-          <a class="button button-secondary" href="https://github.com/emrullahd-cakir">GitHub</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="intro-band" aria-label="Current profile">
-      <div class="intro-grid">
-        <p>
-          I am an astrophysics student building practical skill in observation, modeling,
-          and scientific software. This site collects the work, notes, and project record
-          behind that path.
-        </p>
-        <dl class="quick-facts">
-          <div>
-            <dt>Focus</dt>
-            <dd>X-ray astronomy</dd>
-          </div>
-          <div>
-            <dt>Tools</dt>
-            <dd>Python, Jupyter, data pipelines</dd>
-          </div>
-          <div>
-            <dt>Mode</dt>
-            <dd>Clear analysis, careful interpretation</dd>
-          </div>
-        </dl>
-      </div>
-    </section>
-
-    <section id="research" class="section">
-      <div class="section-heading">
-        <p class="section-kicker">Research</p>
-        <h2>How measurement becomes astronomy.</h2>
-      </div>
-      <div class="split">
-        <p class="lead">
-          My current interests are in high-energy astrophysics and the practical chain
-          from raw observation to model comparison. I care about the details that sit
-          between an instrument and a claim: response matrices, point-spread functions,
-          source localization, background treatment, and uncertainty.
-        </p>
-        <div class="focus-list">
-          <article>
-            <h3>Detector response</h3>
-            <p>Forward folding, calibration, and the link between photon models and observed counts.</p>
-          </article>
-          <article>
-            <h3>Source characterization</h3>
-            <p>Flux, morphology, localization, and the observational signatures of compact objects.</p>
-          </article>
-          <article>
-            <h3>Reproducible analysis</h3>
-            <p>Readable notebooks, versioned workflows, and checks that make results easier to trust.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="work" class="section section-muted">
-      <div class="section-heading">
-        <p class="section-kicker">Selected work</p>
-        <h2>Projects in progress.</h2>
-      </div>
-      <div class="card-grid">
-        <article class="card">
-          <span class="card-tag">Analysis</span>
-          <h3>High-energy astronomy workflows</h3>
-          <p>Short, practical examples for understanding spectra, source detection, and instrument effects.</p>
-        </article>
-        <article class="card">
-          <span class="card-tag">Computing</span>
-          <h3>Scientific Python habits</h3>
-          <p>Notebook and script patterns for keeping calculations readable, testable, and reusable.</p>
-        </article>
-        <article class="card">
-          <span class="card-tag">Writing</span>
-          <h3>Concept notes</h3>
-          <p>Plain-language explanations of technical ideas that come up repeatedly in astrophysics.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="notes" class="section">
-      <div class="section-heading">
-        <p class="section-kicker">Notes</p>
-        <h2>Working explanations.</h2>
-      </div>
-      <div class="note-list">
-        <article>
-          <h3>Forward folding</h3>
-          <p>Why X-ray spectral models are compared to data through the detector response.</p>
-        </article>
-        <article>
-          <h3>Point-spread functions</h3>
-          <p>How telescope optics shape source images, centroids, and localization uncertainty.</p>
-        </article>
-        <article>
-          <h3>Eddington luminosity</h3>
-          <p>The physical balance between radiation pressure and gravity in luminous accretion systems.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="cv" class="section section-dark">
-      <div class="section-heading">
-        <p class="section-kicker">CV snapshot</p>
-        <h2>Academic profile.</h2>
-      </div>
-      <div class="timeline">
-        <div>
-          <span>Current</span>
-          <p>Astrophysics coursework, research preparation, and scientific computing practice.</p>
-        </div>
-        <div>
-          <span>2026</span>
-          <p>Developing research notes and analysis workflows around high-energy astronomy.</p>
-        </div>
-        <div>
-          <span>Skills</span>
-          <p>Python, Jupyter, literature synthesis, data calibration, and clear technical writing.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact-section">
-      <div>
-        <p class="section-kicker">Contact</p>
-        <h2>For research, projects, or collaboration.</h2>
-      </div>
-      <div class="contact-actions">
-        <a class="button button-primary" href="https://github.com/emrullahd-cakir">GitHub</a>
-        <a class="button button-light" href="#top">Back to top</a>
-      </div>
-    </section>
+  <main>
+    <p>Offline</p>
+    <h1>Site temporarily unavailable.</h1>
+    <p>This GitHub Pages site has been taken offline for now.</p>
   </main>
-
-  <footer class="site-footer">
-    <p>&copy; 2026 Emrullah D. Çakır.</p>
-    <p>Built for GitHub Pages.</p>
-  </footer>
 </body>
 </html>
