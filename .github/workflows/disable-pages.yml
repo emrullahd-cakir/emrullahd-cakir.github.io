@@ -1,0 +1,19 @@
+name: Disable GitHub Pages
+
+on:
+  push:
+    paths:
+      - .github/workflows/disable-pages.yml
+
+permissions:
+  contents: read
+  pages: write
+
+jobs:
+  disable:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Disable GitHub Pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method DELETE "/repos/${GITHUB_REPOSITORY}/pages"
