@@ -7,4 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-I am Emrullah Dorukhan Cakir. I am from Ordu, Turkey. I study physics, applied mathematics and statistics at [Johns Hopkins University](https://www.jhu.edu/), with a minor in theatre.
+I am Emrullah Dorukhan Çakır. I am from Ordu, Turkey. I study physics, applied mathematics and statistics at [Johns Hopkins University](https://www.jhu.edu/), with a minor in theatre.
