@@ -1,6 +1,8 @@
 ---
 layout: archive
 permalink: /
+lang: en
+ref: about
 title: "About"
 author_profile: true
 redirect_from:

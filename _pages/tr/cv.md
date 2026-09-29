@@ -1,12 +1,10 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
-lang: en
+title: "Özgeçmiş"
+permalink: /tr/cv/
+lang: tr
 ref: cv
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 {% include cv-body.html %}

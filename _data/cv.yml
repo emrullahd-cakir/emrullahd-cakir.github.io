@@ -79,6 +79,7 @@
         - Received an Outstanding Success Award for Teaching Excellence
 
 - section: Theatre
+  id: theatre
   # Also shown on the Theatre page (_pages/theatre.md). Each "file" under
   # "photos" is in images/theatre/ and "caption" is the text under it.
   entries:

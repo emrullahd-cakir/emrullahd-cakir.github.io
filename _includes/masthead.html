@@ -1,26 +1,36 @@
 {% include base_path %}
+{% assign lang = page.lang | default: "en" %}
+{% assign t = site.data.i18n[lang] %}
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><span class="navicon"></span></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}">
-            <a href="{{ base_path }}/">{{ site.masthead_title | default: site.title }}</a>
+          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == t.home_url or page.url == '/index.html' %}selected{% endif %}">
+            <a href="{{ base_path }}{{ t.home_url }}">{{ t.home_title }}</a>
           </li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
-              <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+          {% for link in t.nav %}
+            <li class="masthead__menu-item {% if page.url == link.url %}selected{% endif %}">
+              <a href="{{ base_path }}{{ link.url }}">{{ link.title }}</a>
             </li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+    </div>
+    {% comment %} Language switch: links to this page's translation (same `ref`), or that language's home page. {% endcomment %}
+    <div class="lang-switch">
+      {% for l in site.data.i18n %}
+        {% assign code = l[0] %}
+        {% if code == lang %}
+          <span class="lang-switch__current" aria-current="true">{{ l[1].label }}</span>
+        {% else %}
+          {% assign other = site.pages | where: "ref", page.ref | where: "lang", code | first %}
+          <a class="lang-switch__link" href="{{ base_path }}{% if other %}{{ other.url }}{% else %}{{ l[1].home_url }}{% endif %}" hreflang="{{ code }}" lang="{{ code }}">{{ l[1].label }}</a>
+        {% endif %}
+        {% unless forloop.last %}<span class="lang-switch__sep" aria-hidden="true">|</span>{% endunless %}
+      {% endfor %}
     </div>
   </div>
 </div>
