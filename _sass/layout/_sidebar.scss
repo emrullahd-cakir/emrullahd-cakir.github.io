@@ -221,7 +221,7 @@
   position: relative;
   display: table-cell;
   vertical-align: middle;
-  font-family: $serif;
+  font-family: $sans-serif;
   z-index: 10;
   position: relative;
   cursor: pointer;
@@ -321,4 +321,10 @@
       text-decoration: underline;
     }
   }
+}
+
+/* Location, employer, email and profile links keep the sans-serif font */
+.sidebar .author__urls li,
+.author__urls li {
+  font-family: $sans-serif;
 }
