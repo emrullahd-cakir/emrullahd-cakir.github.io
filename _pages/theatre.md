@@ -10,12 +10,12 @@ author_profile: true
 {% assign theatre = site.data.cv | where: "section", "Theatre" | first %}
 
 <div class="theatre-gallery">
-{% for e in theatre.entries %}{% if e.photo %}
+{% for e in theatre.entries %}{% for photo in e.photos %}
   <figure class="theatre-photo">
-    <img src="{{ base_path }}/images/theatre/{{ e.photo }}" alt="{{ e.caption | strip_html | remove: '*' }}" loading="lazy">
-    <figcaption>{{ e.caption | markdownify | remove: '<p>' | remove: '</p>' | strip }}</figcaption>
+    <img src="{{ base_path }}/images/theatre/{{ photo.file }}" alt="{{ photo.caption | remove: '*' }}" loading="lazy">
+    <figcaption>{{ photo.caption | markdownify | remove: '<p>' | remove: '</p>' | strip }}</figcaption>
   </figure>
-{% endif %}{% endfor %}
+{% endfor %}{% endfor %}
 </div>
 
 <section class="cv-section">

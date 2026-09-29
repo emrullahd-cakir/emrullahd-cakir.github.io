@@ -79,29 +79,35 @@
         - Received an Outstanding Success Award for Teaching Excellence
 
 - section: Theatre
-  # Also shown on the Theatre page (_pages/theatre.md). "photo" is a file in
-  # images/theatre/ and "caption" is the text under it.
+  # Also shown on the Theatre page (_pages/theatre.md). Each "file" under
+  # "photos" is in images/theatre/ and "caption" is the text under it.
   entries:
     - title: John the Steward
       org: Witness Theatre, *I-Show*
       dates: "2026"
-      photo: witness-i-show-john-the-steward.jpg
-      caption: John the Steward on the Eternity Express, Witness Theatre *I-Show* (2026)
+      photos:
+        - file: witness-i-show-john-the-steward.jpg
+          caption: John the Steward on the Eternity Express, Witness Theatre *I-Show* (2026)
     - title: Big Bud Dean and Hipster Dork
       org: Barnstormers, *Heathers*
       dates: "2025"
-      photo: heathers-hipster-dork.jpg
-      caption: Hipster Dork in *Heathers*, Barnstormers (2025)
+      photos:
+        - file: heathers-hipster-dork.jpg
+          caption: Hipster Dork in *Heathers*, Barnstormers (2025)
     - title: The Porter
       org: JHU Shakespeare Theatre Company, *Macbeth*
       dates: "2025"
-      photo: macbeth-porter.jpg
-      caption: The Porter in *Macbeth*, JHU Shakespeare Theatre Company (2025)
+      photos:
+        - file: macbeth-porter-2.jpg
+          caption: The Porter in *Macbeth*, JHU Shakespeare Theatre Company (2025)
+        - file: macbeth-porter.jpg
+          caption: The Porter in *Macbeth*, JHU Shakespeare Theatre Company (2025)
     - title: R and Mosquito
-      org: JHU Theatre, *Chen’s Passage*
+      org: JHU Theatre, *Passage*
       dates: "2024"
-      photo: chens-passage-mosquito.jpg
-      caption: Mosquito in *Chen’s Passage*, JHU Theatre (2024)
+      photos:
+        - file: passage-mosquito.jpg
+          caption: Mosquito in *Passage*, JHU Theatre (2024)
     - title: Slasher
-      org: Barnstormers FOAS, *Somebody Please Kill Me*
+      org: Barnstormers FOAs, *Somebody Please Kill Me*
       dates: "2024"
