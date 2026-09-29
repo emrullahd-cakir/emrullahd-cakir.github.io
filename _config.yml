@@ -11,6 +11,7 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Emrullah Dorukhan Çakır"
 title_separator          : "-"
+masthead_title           : "About" # label of the first (home) link in the top menu
 name                     : &name "Emrullah Dorukhan Çakır"
 description              : &description "Emrullah Dorukhan Çakır: physics and mathematics at Johns Hopkins University"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://emrullahd-cakir.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
@@ -26,7 +27,7 @@ author:
   avatar           : # e.g. "profile.png" placed in /images/
   name             : "Emrullah Dorukhan Çakır"
   pronouns         : # example: "she/her"  
-  bio              : "Physics & Mathematics student"
+  bio              : "Physics & Mathematics Student"
   location         : "Baltimore, MD, USA"
   employer         : "Johns Hopkins University"
   uri              : # URL
