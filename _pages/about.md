@@ -13,6 +13,6 @@ I am a research assistant at NASA Goddard Space Flight Center and Johns Hopkins,
 
 Earlier, I designed a role-playing game based on cognitive behavioral therapy for children with ADHD, under the supervision of psychiatrist Dr. Nuran Gözpınar, and presented the work at the European Association for Behavioural and Cognitive Therapies Congress 2023.
 
-At Hopkins I am Head of Projects for the Johns Hopkins Data Science Club, and I was previously Social Chair of the Society of Physics Students. On stage, I played R in *Chen's Passage* with JHU Theatre and was an actor in the Witness Theatre I-Show 2026.
+At Hopkins I am Head of Projects for the Johns Hopkins Data Science Club, and I was previously Social Chair of the Society of Physics Students. On stage, I have played R in *Chen's Passage* with JHU Theatre, Big Bud Dean and Hipster Dork in *Heathers* with the Barnstormers, and the Porter in *Macbeth* with the JHU Shakespeare Theatre Company, and I was an actor in the Witness Theatre I-Show 2026.
 
 My full CV is [here](/cv/).

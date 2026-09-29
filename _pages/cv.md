@@ -59,5 +59,7 @@ Teaching Experience
 
 Theatre
 ======
-* **R** in *Chen's Passage*, JHU Theatre
-* **Actor**, Witness Theatre I-Show 2026
+* **Actor**, Witness Theatre I-Show (2026)
+* **Big Bud Dean** and **Hipster Dork** in *Heathers*, Barnstormers (2025)
+* **R** in *Chen's Passage*, JHU Theatre (2024)
+* **The Porter** in *Macbeth*, JHU Shakespeare Theatre Company
