@@ -1,0 +1,113 @@
+# Turkish version of _data/cv.yml. Keep the two files in step: same
+# sections, entries and photos, translated text.
+
+- section: Eğitim
+  entries:
+    - title: Johns Hopkins Üniversitesi
+      org: Fizik, Matematik ve Uygulamalı Matematik & İstatistik Lisansı
+      dates: 2028 (beklenen)
+      bullets:
+        - "Yan dal: Tiyatro Sanatları ve Çalışmaları"
+        - "Lisansüstü dersler: Kuantum Alan Teorisi; Emily Riehl ile Kategori Teorisi"
+
+- section: Başarılar
+  entries:
+    - title: Rise Bursiyeri
+      bullets:
+        - 80.000 başvuru arasından seçilen 100 bursiyerden biri
+
+- section: Araştırma Deneyimi
+  entries:
+    - title: Araştırma Asistanı
+      org: NASA Goddard Uzay Uçuş Merkezi & Johns Hopkins Üniversitesi
+      dates: Ağu 2026 – Günümüz
+      bullets:
+        - Tam Chandra Kaynak Kataloğu (CSC) dahil büyük X-ışını veri kümelerinin otomatik işlenmesi için XAssist analiz hattını Python 2’den Python 3’e taşıyarak modernize ettim
+        - CSC kaynaklarını HECATE galaksileriyle eşleştiren ve aday ultraparlak X-ışını kaynaklarını belirleyen Python iş akışları geliştirdim
+    - title: Araştırma Asistanı
+      org: CMS Deneyi, CERN
+      dates: May 2025 – Günümüz
+      bullets:
+        - Yüksek enerjili proton–proton çarpışma verilerindeki anomalileri tespit etmek için makine öğrenmesi uyguladım
+        - Python, PyTorch, CERN ROOT ve HPC sistemleriyle büyük ölçekli veri kümelerini işleyip analiz ettim
+        - Modelleri fiziksel öngörülerle doğrulamak için istatistiksel analizler ve görselleştirmeler hazırladım
+    - title: DEHB için Terapötik Araç
+      org: Bağımsız araştırma, psikiyatrist Dr. Nuran Gözpınar danışmanlığında
+      dates: Eyl 2021 – Ağu 2025
+      bullets:
+        - DEHB’li çocuklar için bilişsel davranışçı terapiye dayalı bir rol yapma oyunu tasarladım
+        - Araştırmayı 2023 Avrupa Davranışçı ve Bilişsel Terapiler Derneği (EABCT) Kongresi’nde sundum
+
+- section: Profesyonel Deneyim
+  entries:
+    - title: Ürün Stajyeri
+      org: Faradai
+      dates: Haz 2022 – Ağu 2022
+      bullets:
+        - Kurucu ortak Utku Simitli’nin danışmanlığında kurumsal karbon denkleştirme üzerine yazılar yazdım ve çevresel eylem konusunda şirket içi bilgi bankasına içerik hazırladım
+        - Karbon Saydamlık Projesi’nin (CDP) küçük ve orta ölçekli işletmelere yönelik raporlama çerçevesini inceledim
+
+- section: Liderlik ve Topluluk
+  entries:
+    - title: Proje Sorumlusu
+      org: Johns Hopkins Veri Bilimi Kulübü
+      dates: Ağu 2026 – Günümüz
+      bullets:
+        - Üyelerin yürüttüğü projeleri denetlemek ve demo günlerini koordine etmek üzere seçildim
+        - Kulübü; ortak proje çalışması, akran geri bildirimi ve ağ kurma için bir Socratica düğümü olarak yapılandırıyorum
+    - title: Sosyal Etkinlik Sorumlusu
+      org: Society of Physics Students, Johns Hopkins Şubesi
+      dates: May 2025 – May 2026
+      bullets:
+        - 15’ten fazla etkinliğin Instagram tanıtımını ve kampüs duyurularını yürüttüm; özgün çizimlerle tanıtım materyalleri tasarladım
+        - Geleneksel Bahar Balosu’nu ve son sınıflara veda etkinliğini düzenledim
+    - title: Eş Lider
+      org: Minik Orman Projesi, Beşiktaş, İstanbul
+      dates: Oca 2022 – Haz 2024
+      bullets:
+        - 16 öğrenciden oluşan ekibe eş liderlik ederek Miyawaki yöntemiyle yerli türlerden oluşan, kendi kendini sürdürebilen bir kentsel orman araştırıp diktik
+        - Projeyi İstanbul Büyükşehir Belediye Başkanı’na sunduk ve Çevresel Amaçlara Üstün Katkı dalında Derin Uras Ödülü’nü aldık
+
+- section: Öğretim Deneyimi
+  entries:
+    - title: Augmented Mechanics Öğretim Asistanı
+      org: Kadir Has Üniversitesi
+      dates: Tem 2023
+      bullets:
+        - 15 öğrenciye mekanik dersi verdim, 350’den fazla ödev değerlendirdim ve ofis saatleri düzenledim
+        - Öğretimde Mükemmellik dalında Üstün Başarı Ödülü aldım
+
+- section: Tiyatro
+  id: theatre
+  entries:
+    - title: John the Steward
+      org: Witness Theatre I-Show, *That’s All We Get*
+      dates: "2026"
+      photos:
+        - file: witness-i-show-john-the-steward.jpg
+          caption: "*That’s All We Get* oyununda John the Steward, Witness Theatre I-Show (2026)"
+    - title: Big Bud Dean ve Hipster Dork
+      org: Barnstormers, *Heathers*
+      dates: "2025"
+      photos:
+        - file: heathers-hipster-dork.jpg
+          caption: "*Heathers* oyununda Hipster Dork, Barnstormers (2025)"
+    - title: The Porter
+      org: JHU Shakespeare Theatre Company, *Macbeth*
+      dates: "2025"
+      photos:
+        - file: macbeth-porter-2.jpg
+          caption: "*Macbeth* oyununda The Porter, JHU Shakespeare Theatre Company (2025)"
+        - file: macbeth-porter.jpg
+          caption: "*Macbeth* oyununda The Porter, JHU Shakespeare Theatre Company (2025)"
+    - title: R ve Mosquito
+      org: JHU Theatre, *Passage*
+      dates: "2024"
+      photos:
+        - file: passage-mosquito.jpg
+          caption: "*Passage* oyununda Mosquito, JHU Theatre (2024)"
+        - file: passage-cast.jpg
+          caption: "*Passage* oyuncu kadrosuyla, JHU Theatre (2024)"
+    - title: Slasher
+      org: Barnstormers FOAs, *Kill Me, Please!*
+      dates: "2024"

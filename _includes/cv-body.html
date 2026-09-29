@@ -1,0 +1,25 @@
+{% comment %} CV content from _data/cv.yml (English) or _data/cv_tr.yml (Turkish). {% endcomment %}
+{% assign lang = page.lang | default: "en" %}
+{% assign cv_key = site.data.i18n[lang].cv_data %}
+{% assign cv = site.data[cv_key] %}
+<div class="cv">
+{% for block in cv %}
+  <section class="cv-section">
+    <h2 class="cv-section__title">{{ block.section }}</h2>
+    {% for e in block.entries %}
+    <div class="cv-entry">
+      <div class="cv-entry__head">
+        <span class="cv-entry__title">{{ e.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
+        {% if e.dates %}<span class="cv-entry__dates">{{ e.dates }}</span>{% endif %}
+      </div>
+      {% if e.org %}<div class="cv-entry__org">{{ e.org | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>{% endif %}
+      {% if e.bullets %}
+      <ul class="cv-entry__bullets">
+        {% for b in e.bullets %}<li>{{ b | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </section>
+{% endfor %}
+</div>

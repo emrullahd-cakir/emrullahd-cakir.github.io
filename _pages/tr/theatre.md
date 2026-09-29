@@ -1,8 +1,8 @@
 ---
 layout: archive
-title: "Theatre"
-permalink: /theatre/
-lang: en
+title: "Tiyatro"
+permalink: /tr/theatre/
+lang: tr
 ref: theatre
 author_profile: true
 ---

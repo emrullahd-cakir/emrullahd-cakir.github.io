@@ -79,3 +79,57 @@
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
+
+/* Language switch in the top-right corner */
+.masthead__inner-wrap {
+  position: relative;
+}
+
+.masthead__menu {
+  padding-right: 4.5em;
+}
+
+/* Tighter menu spacing on small screens so all tabs fit beside the switch */
+@include breakpoint(max-width $medium - 1px) {
+  .masthead__menu {
+    padding-right: 3.5em;
+  }
+
+  .masthead__menu-item--lg {
+    padding-right: 0;
+  }
+
+  .greedy-nav .visible-links a {
+    margin: 0 0.5rem;
+  }
+}
+
+.lang-switch {
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  transform: translateY(-50%);
+  font-size: $type-size-5;
+  white-space: nowrap;
+  z-index: 20;
+  padding-left: 0.5em;
+  background: var(--global-bg-color);
+
+  a {
+    color: var(--global-text-color-light);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-text-color);
+    }
+  }
+}
+
+.lang-switch__current {
+  font-weight: 700;
+}
+
+.lang-switch__sep {
+  margin: 0 0.35em;
+  color: var(--global-border-color);
+}

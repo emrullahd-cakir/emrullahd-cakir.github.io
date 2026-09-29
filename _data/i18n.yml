@@ -1,0 +1,34 @@
+# Interface text per language. English is the default; Turkish pages set
+# `lang: tr` in their front matter. `ref` in front matter pairs a page with
+# its translation for the language switch in the top-right corner.
+en:
+  label: EN
+  home_title: About
+  home_url: /
+  nav:
+    - title: CV
+      url: /cv/
+    - title: Theatre
+      url: /theatre/
+  bio: Physics & Mathematics Student
+  location: Baltimore, MD, USA
+  employer: Johns Hopkins University
+  email: Email
+  credits: Credits
+  cv_data: cv
+
+tr:
+  label: TR
+  home_title: Hakkımda
+  home_url: /tr/
+  nav:
+    - title: Özgeçmiş
+      url: /tr/cv/
+    - title: Tiyatro
+      url: /tr/theatre/
+  bio: Fizik ve Matematik Öğrencisi
+  location: Baltimore, MD, ABD
+  employer: Johns Hopkins Üniversitesi
+  email: E-posta
+  credits: Roller
+  cv_data: cv_tr
