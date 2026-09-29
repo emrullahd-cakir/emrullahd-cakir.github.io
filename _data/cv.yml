@@ -83,11 +83,11 @@
   # "photos" is in images/theatre/ and "caption" is the text under it.
   entries:
     - title: John the Steward
-      org: Witness Theatre, *I-Show*
+      org: Witness Theatre I-Show, *That’s All We Get*
       dates: "2026"
       photos:
         - file: witness-i-show-john-the-steward.jpg
-          caption: John the Steward on the Eternity Express, Witness Theatre *I-Show* (2026)
+          caption: John the Steward in *That’s All We Get*, Witness Theatre I-Show (2026)
     - title: Big Bud Dean and Hipster Dork
       org: Barnstormers, *Heathers*
       dates: "2025"
