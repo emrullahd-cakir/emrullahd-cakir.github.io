@@ -328,3 +328,43 @@
 .author__urls li {
   font-family: $sans-serif;
 }
+
+/* Name: one word per line in the wide-screen sidebar, one line otherwise */
+.author__name-part {
+  @include breakpoint($large) {
+    display: block;
+  }
+}
+
+.author__name-part + .author__name-part::before {
+  content: " ";
+}
+
+/* Small screens: no Follow dropdown, show the links in a row under the name */
+.author__urls-wrapper {
+  @include breakpoint(max-width $large - 1px) {
+    display: block;
+    margin-top: 0.5em;
+    cursor: default;
+
+    .author__urls {
+      display: block;
+      position: static;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      box-shadow: none;
+
+      &:before,
+      &:after {
+        display: none;
+      }
+
+      li {
+        display: inline-block;
+        margin-right: 1em;
+      }
+    }
+  }
+}
