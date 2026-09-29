@@ -1,0 +1,16 @@
+# The order of the links in the header of the website.
+# To add a blog or portfolio later, uncomment the matching entry
+# (and add posts to _posts/ or projects to _portfolio/).
+
+main:
+  - title: "CV"
+    url: /cv/
+
+  - title: "Theatre"
+    url: /theatre/
+
+  # - title: "Portfolio"
+  #   url: /portfolio/
+
+  # - title: "Blog Posts"
+  #   url: /year-archive/

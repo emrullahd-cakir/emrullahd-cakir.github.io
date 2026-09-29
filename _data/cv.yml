@@ -1,0 +1,115 @@
+# Content for the CV page (_pages/cv.md). Each section is a heading
+# followed by entries; each entry has a title, an optional organization,
+# optional dates, and optional bullet points. Markdown works in all fields.
+
+- section: Education
+  entries:
+    - title: Johns Hopkins University
+      org: B.S. in Physics, Mathematics, and Applied Mathematics & Statistics
+      dates: Expected 2028
+      bullets:
+        - "Minor: Theatre Arts & Studies"
+        - "Graduate coursework: Quantum Field Theory; Category Theory with Emily Riehl"
+
+- section: Honors
+  entries:
+    - title: Rise Fellow
+      bullets:
+        - Selected as one of 100 fellows from 80,000 applicants
+
+- section: Research Experience
+  entries:
+    - title: Research Assistant
+      org: NASA Goddard Space Flight Center & Johns Hopkins University
+      dates: Aug 2026 – Present
+      bullets:
+        - Modernized the XAssist analysis pipeline from Python 2 to Python 3 to support automated processing of large X-ray datasets, including the full Chandra Source Catalog (CSC)
+        - Built Python workflows to cross-match the CSC sources with HECATE galaxies and identify candidate ultraluminous X-ray sources
+    - title: Research Assistant
+      org: CMS Experiment, CERN
+      dates: May 2025 – Present
+      bullets:
+        - Applied machine learning to detect anomalies in high-energy proton–proton collision data
+        - Processed and analyzed large-scale datasets using Python, PyTorch, CERN ROOT, and HPC systems
+        - Produced statistical analyses and visualizations to validate models against physical predictions
+    - title: Therapeutic Tool for ADHD
+      org: Independent research, supervised by psychiatrist Dr. Nuran Gözpınar
+      dates: Sep 2021 – Aug 2025
+      bullets:
+        - Designed a role-playing game based on cognitive behavioral therapy for children with ADHD
+        - Presented the research at the European Association for Behavioural and Cognitive Therapies Congress 2023
+
+- section: Professional Experience
+  entries:
+    - title: Product Intern
+      org: Faradai
+      dates: Jun 2022 – Aug 2022
+      bullets:
+        - Authored publications on corporate carbon offsetting under co-founder Utku Simitli’s supervision and contributed internal knowledge-base entries on environmental action
+        - Reviewed the Carbon Disclosure Project’s disclosure framework for small and medium-sized enterprises
+
+- section: Leadership & Community
+  entries:
+    - title: Head of Projects
+      org: Johns Hopkins Data Science Club
+      dates: Aug 2026 – Present
+      bullets:
+        - Selected to oversee member-led projects and coordinate demo days
+        - Establishing the club as a Socratica node for collaborative project work, peer feedback and networking
+    - title: Social Chair
+      org: Society of Physics Students, Johns Hopkins Chapter
+      dates: May 2025 – May 2026
+      bullets:
+        - Managed Instagram outreach and campus advertising for 15+ events, designing promotional materials with original artwork
+        - Organized the annual Spring Formal and Senior Sendoff
+    - title: Co-Lead
+      org: Tiny Forest Project, Beşiktaş, Istanbul
+      dates: Jan 2022 – Jun 2024
+      bullets:
+        - Co-led 16 students in researching and planting a self-sustaining urban forest of native species using the Miyawaki method
+        - Presented the project to the Mayor of Istanbul and received the Derin Uras Award for Outstanding Contribution to Environmental Causes
+
+- section: Teaching Experience
+  entries:
+    - title: Augmented Mechanics Teaching Assistant
+      org: Kadir Has University
+      dates: Jul 2023
+      bullets:
+        - Taught mechanics to 15 students, graded 350+ assignments, and held office hours
+        - Received an Outstanding Success Award for Teaching Excellence
+
+- section: Theatre
+  # Also shown on the Theatre page (_pages/theatre.md). Each "file" under
+  # "photos" is in images/theatre/ and "caption" is the text under it.
+  entries:
+    - title: John the Steward
+      org: Witness Theatre, *I-Show*
+      dates: "2026"
+      photos:
+        - file: witness-i-show-john-the-steward.jpg
+          caption: John the Steward on the Eternity Express, Witness Theatre *I-Show* (2026)
+    - title: Big Bud Dean and Hipster Dork
+      org: Barnstormers, *Heathers*
+      dates: "2025"
+      photos:
+        - file: heathers-hipster-dork.jpg
+          caption: Hipster Dork in *Heathers*, Barnstormers (2025)
+    - title: The Porter
+      org: JHU Shakespeare Theatre Company, *Macbeth*
+      dates: "2025"
+      photos:
+        - file: macbeth-porter-2.jpg
+          caption: The Porter in *Macbeth*, JHU Shakespeare Theatre Company (2025)
+        - file: macbeth-porter.jpg
+          caption: The Porter in *Macbeth*, JHU Shakespeare Theatre Company (2025)
+    - title: R and Mosquito
+      org: JHU Theatre, *Passage*
+      dates: "2024"
+      photos:
+        - file: passage-mosquito.jpg
+          caption: Mosquito in *Passage*, JHU Theatre (2024)
+        - file: passage-cast.jpg
+          caption: With the cast of *Passage*, JHU Theatre (2024)
+    - title: Slasher
+      org: Barnstormers FOAs, *Kill Me, Please!*
+      dates: "2024"

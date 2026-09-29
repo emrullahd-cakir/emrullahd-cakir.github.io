@@ -1,0 +1,77 @@
+/* ==========================================================================
+   CV page (_pages/cv.md, content in _data/cv.yml)
+   ========================================================================== */
+
+.cv-section {
+  margin-bottom: 2em;
+}
+
+.cv-section__title {
+  margin: 0 0 0.75em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--global-border-color);
+  font-size: $type-size-4;
+}
+
+.cv-entry {
+  margin-bottom: 1.25em;
+}
+
+.cv-entry__head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  column-gap: 1em;
+}
+
+.cv-entry__title {
+  font-weight: bold;
+}
+
+.cv-entry__dates {
+  color: var(--global-text-color-light);
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+.cv-entry__org {
+  font-style: italic;
+}
+
+.cv-entry__bullets {
+  margin: 0.4em 0 0;
+  font-size: 0.9em;
+
+  li {
+    margin-bottom: 0.25em;
+  }
+}
+
+/* ==========================================================================
+   Theatre page (_pages/theatre.md)
+   ========================================================================== */
+
+.theatre-gallery {
+  columns: 2 260px;
+  column-gap: 1.5em;
+  margin-bottom: 2.5em;
+}
+
+.theatre-photo {
+  display: block;
+  margin: 0 0 1.5em;
+  break-inside: avoid;
+
+  img {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  figcaption {
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    line-height: 1.4;
+  }
+}
