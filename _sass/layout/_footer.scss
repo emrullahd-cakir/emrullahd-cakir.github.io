@@ -4,6 +4,7 @@
 
 .page__footer {
   @include clearfix;
+  font-family: $sans-serif;
   background-color: var(--global-footer-bg-color);
   color: var(--global-text-color-light);
 
@@ -66,7 +67,7 @@
 }
 
 .page__footer-copyright {
-  font-family: $global-font-family;
+  font-family: $sans-serif;
   font-size: $type-size-7;
 }
 
@@ -81,7 +82,7 @@
     display: inline-block;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-family: $sans-serif-narrow;
+    font-family: $sans-serif;
     font-size: $type-size-6;
     text-transform: uppercase;
   }
