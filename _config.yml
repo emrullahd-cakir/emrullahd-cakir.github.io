@@ -24,7 +24,7 @@ repository               : "emrullahd-cakir/emrullahd-cakir.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : # e.g. "profile.png" placed in /images/
+  avatar           : "profile.jpg"
   name             : "Emrullah Dorukhan Çakır"
   pronouns         : # example: "she/her"  
   bio              : "Physics & Mathematics Student"
