@@ -29,14 +29,14 @@
       org: CMS Experiment, CERN
       dates: May 2025 – Present
       bullets:
-        - Applied machine learning to detect anomalies in high-energy proton–proton collision data
-        - Processed and analyzed large-scale datasets using Python, PyTorch, CERN ROOT, and HPC systems
-        - Produced statistical analyses and visualizations to validate models against physical predictions
-    - title: Therapeutic Tool for ADHD
-      org: Independent research, supervised by psychiatrist Dr. Nuran Gözpınar
+        - Set up and ran autoencoder and normalizing-flow training for anomaly detection in collision data
+        - Built a standalone TIMBER script to apply selections and jet energy correction variations, used in the project’s validation tests
+        - Developed HDF5 merging code and addressed a sampling memory bottleneck through incremental writes
+        - Contributed to and published the 2DAlphabet container on CVMFS, and documented its use for researchers
+    - title: Therapeutic Tool for ADHD Research
       dates: Sep 2021 – Aug 2025
       bullets:
-        - Designed a role-playing game based on cognitive behavioral therapy for children with ADHD
+        - Designed a role-playing game based on cognitive behavioral therapy for children with ADHD under the supervision of psychiatrist Dr. Nuran Gözpınar
         - Presented the research at the European Association for Behavioural and Cognitive Therapies Congress 2023
 
 - section: Professional Experience
@@ -54,14 +54,14 @@
       org: Johns Hopkins Data Science Club
       dates: Aug 2026 – Present
       bullets:
-        - Selected to oversee member-led projects and coordinate demo days
+        - Overseeing member-led projects and coordinating demo days
         - Establishing the club as a Socratica node for collaborative project work, peer feedback and networking
     - title: Social Chair
       org: Society of Physics Students, Johns Hopkins Chapter
       dates: May 2025 – May 2026
       bullets:
-        - Managed Instagram outreach and campus advertising for 15+ events, designing promotional materials with original artwork
-        - Organized the annual Spring Formal and Senior Sendoff
+        - Managed Instagram and campus outreach for 15+ events, creating original promotional artwork
+        - Organized the annual Spring Formal and Senior Sendoff, coordinating venues, catering, and entertainment
     - title: Co-Lead
       org: Tiny Forest Project, Beşiktaş, Istanbul
       dates: Jan 2022 – Jun 2024
