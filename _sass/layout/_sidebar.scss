@@ -184,7 +184,8 @@
 }
 .sidebar .author__name {
   font-family: $serif;
-  font-size: $type-size-5;
+  font-size: $type-size-3;
+  line-height: 1.15;
 }
 
 .sidebar .author__desktop {
@@ -324,13 +325,7 @@
   font-family: $sans-serif;
 }
 
-/* Name: one word per line in the wide-screen sidebar, one line otherwise */
-.author__name-part {
-  @include breakpoint($large) {
-    display: block;
-  }
-}
-
+/* Name: same size as the page headings; wraps on its own when narrow */
 .author__name-part + .author__name-part::before {
   content: " ";
 }
