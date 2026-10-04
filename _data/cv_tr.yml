@@ -8,7 +8,7 @@
       dates: 2028 (beklenen)
       bullets:
         - "Yan dal: Tiyatro Sanatları ve Çalışmaları"
-        - "Lisansüstü dersler: Kuantum Alan Teorisi; Emily Riehl ile Kategori Teorisi"
+        - "Lisansüstü dersler: Kuantum Alan Teorisi, Emily Riehl ile Kategori Teorisi"
 
 - section: Başarılar
   entries:
@@ -19,24 +19,24 @@
 - section: Araştırma Deneyimi
   entries:
     - title: Araştırma Asistanı
-      org: NASA Goddard Uzay Uçuş Merkezi & Johns Hopkins Üniversitesi
+      org: NASA Goddard Uzay Uçuş Merkezi ve Johns Hopkins Üniversitesi
       dates: Ağu 2026 – Günümüz
       bullets:
-        - Tam Chandra Kaynak Kataloğu (CSC) dahil büyük X-ışını veri kümelerinin otomatik işlenmesi için XAssist analiz hattını Python 2’den Python 3’e taşıyarak modernize ettim
-        - CSC kaynaklarını HECATE galaksileriyle eşleştiren ve aday ultraparlak X-ışını kaynaklarını belirleyen Python iş akışları geliştirdim
+        - Tam Chandra Kaynak Kataloğu (CSC) dâhil büyük X-ışını veri kümelerinin otomatik işlenmesi için XAssist analiz hattını Python 2’den Python 3’e taşıyarak modernize ettim.
+        - CSC kaynaklarını HECATE galaksileriyle eşleştiren ve aday ultraparlak X-ışını kaynaklarını belirleyen Python iş akışları geliştirdim.
     - title: Araştırma Asistanı
       org: CMS Deneyi, CERN
       dates: May 2025 – Günümüz
       bullets:
-        - Çarpışma verilerinde anomali tespiti için otomatik kodlayıcı (autoencoder) ve normalleştirici akış (normalizing flow) eğitimlerini kurup yürüttüm
-        - Seçimleri ve jet enerji düzeltmesi varyasyonlarını uygulayan, projenin doğrulama testlerinde kullanılan bağımsız bir TIMBER betiği yazdım
-        - HDF5 birleştirme kodu geliştirdim ve artımlı yazma ile örneklemedeki bellek darboğazını giderdim
-        - 2DAlphabet konteynerine katkıda bulunup CVMFS üzerinde yayımladım ve araştırmacılar için kullanımını belgeledim
+        - Çarpışma verilerinde anomali tespiti için otomatik kodlayıcı (autoencoder) ve normalleştirici akış (normalizing flow) eğitimlerini kurup yürüttüm.
+        - Seçimleri ve jet enerji düzeltmesi varyasyonlarını uygulayan, projenin doğrulama testlerinde kullanılan bağımsız bir TIMBER betiği yazdım.
+        - HDF5 birleştirme kodu geliştirdim ve artımlı yazma ile örneklemedeki bellek darboğazını giderdim.
+        - 2DAlphabet konteynerine katkıda bulunup CVMFS üzerinde yayımladım ve araştırmacılar için kullanımını belgeledim.
     - title: DEHB için Terapötik Araç Araştırması
       dates: Eyl 2021 – Ağu 2025
       bullets:
-        - Psikiyatrist Dr. Nuran Gözpınar danışmanlığında, DEHB’li çocuklar için bilişsel davranışçı terapiye dayalı bir rol yapma oyunu tasarladım
-        - Araştırmayı 2023 Avrupa Davranışçı ve Bilişsel Terapiler Derneği (EABCT) Kongresi’nde sundum
+        - Psikiyatrist Dr. Nuran Gözpınar danışmanlığında, DEHB’li çocuklar için bilişsel davranışçı terapiye dayalı bir rol yapma oyunu tasarladım.
+        - Araştırmayı 2023 Avrupa Davranışçı ve Bilişsel Terapiler Derneği (EABCT) Kongresi’nde sundum.
 
 - section: Profesyonel Deneyim
   entries:
@@ -44,8 +44,8 @@
       org: Faradai
       dates: Haz 2022 – Ağu 2022
       bullets:
-        - Kurucu ortak Utku Simitli’nin danışmanlığında kurumsal karbon denkleştirme üzerine yazılar yazdım ve çevresel eylem konusunda şirket içi bilgi bankasına içerik hazırladım
-        - Karbon Saydamlık Projesi’nin (CDP) küçük ve orta ölçekli işletmelere yönelik raporlama çerçevesini inceledim
+        - Kurucu ortak Utku Simitli’nin danışmanlığında kurumsal karbon denkleştirme üzerine yazılar yazdım ve çevresel eylem konusunda şirket içi bilgi bankasına içerik hazırladım.
+        - Karbon Saydamlık Projesi’nin (CDP) küçük ve orta ölçekli işletmelere yönelik raporlama çerçevesini inceledim.
 
 - section: Liderlik ve Topluluk
   entries:
@@ -53,20 +53,20 @@
       org: Johns Hopkins Veri Bilimi Kulübü
       dates: Ağu 2026 – Günümüz
       bullets:
-        - Üyelerin yürüttüğü projeleri denetliyor ve demo günlerini koordine ediyorum
-        - Kulübü; ortak proje çalışması, akran geri bildirimi ve ağ kurma için bir Socratica düğümü olarak yapılandırıyorum
+        - Üyelerin yürüttüğü projeleri denetliyor ve demo günlerini koordine ediyorum.
+        - Kulübü ortak proje çalışması, akran geri bildirimi ve ağ kurma için bir Socratica düğümü olarak yapılandırıyorum.
     - title: Sosyal Etkinlik Sorumlusu
       org: Society of Physics Students, Johns Hopkins Şubesi
       dates: May 2025 – May 2026
       bullets:
-        - 15’ten fazla etkinliğin Instagram ve kampüs tanıtımını yürüttüm; özgün tanıtım çizimleri hazırladım
-        - Geleneksel Bahar Balosu’nu ve son sınıflara veda etkinliğini mekân, ikram ve eğlence organizasyonunu koordine ederek düzenledim
+        - 15’ten fazla etkinliğin Instagram ve kampüs tanıtımını yürüttüm ve özgün tanıtım çizimleri hazırladım.
+        - Geleneksel Bahar Balosu’nu ve son sınıflara veda etkinliğini mekân, ikram ve eğlence organizasyonunu koordine ederek düzenledim.
     - title: Eş Lider
       org: Minik Orman Projesi, Beşiktaş, İstanbul
       dates: Oca 2022 – Haz 2024
       bullets:
-        - 16 öğrenciden oluşan ekibe eş liderlik ederek Miyawaki yöntemiyle yerli türlerden oluşan, kendi kendini sürdürebilen bir kentsel orman araştırıp diktik
-        - Projeyi İstanbul Büyükşehir Belediye Başkanı’na sunduk ve Çevresel Amaçlara Üstün Katkı dalında Derin Uras Ödülü’nü aldık
+        - 16 öğrenciden oluşan ekibe eş liderlik ederek Miyawaki yöntemiyle yerli türlerden oluşan, kendi kendini sürdürebilen bir kentsel orman araştırıp diktik.
+        - Projeyi İstanbul Büyükşehir Belediye Başkanı’na sunduk ve Çevresel Amaçlara Üstün Katkı dalında Derin Uras Ödülü’nü aldık.
 
 - section: Öğretim Deneyimi
   entries:
@@ -74,8 +74,8 @@
       org: Kadir Has Üniversitesi
       dates: Tem 2023
       bullets:
-        - 15 öğrenciye mekanik dersi verdim, 350’den fazla ödev değerlendirdim ve ofis saatleri düzenledim
-        - Öğretimde Mükemmellik dalında Üstün Başarı Ödülü aldım
+        - 15 öğrenciye mekanik dersi verdim, 350’den fazla ödev değerlendirdim ve ofis saatleri düzenledim.
+        - Öğretimde Mükemmellik dalında Üstün Başarı Ödülü aldım.
 
 - section: Tiyatro
   id: theatre
